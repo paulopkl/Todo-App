@@ -1,8 +1,8 @@
 <p align="center">
   <a href="" rel="noopener">
- <img src="https://i.imgur.com/AZ2iWek.png" alt="Project logo"></a>
+ <img src="/assets/background.png" alt="Todo-App logo"></a>
 </p>
-<h3 align="center">Project Title</h3>
+<h3 align="center">Todo-App</h3>
 
 <div align="center">
 
