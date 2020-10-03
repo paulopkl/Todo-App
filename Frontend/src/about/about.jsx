@@ -1,15 +1,15 @@
 import React from 'react';
 import PageHeader from '../template/PageHeader';
 
-export default props => (
+export default () => (
     <div>
         <PageHeader name="Sobre" small="Nós" />
 
-        <h2>Nossa História</h2>
+        <h2>Our History</h2>
         <p>Lorem ipsum dolor</p>
-        <h2>Missão e Visão</h2>
+        <h2>Mission and Vision</h2>
         <p>Lorem ipsum indolor</p>
-        <h2>Imprensa</h2>
+        <h2>Values</h2>
         <p>Lorem ipsum ipsum</p>
     </div>
 )

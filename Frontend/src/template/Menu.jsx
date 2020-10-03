@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default props => (
+export default () => (
     <nav className="navbar navbar-inverse bg-inverse">
         <div className="container">
             <div className="navbar-header">
@@ -12,10 +12,10 @@ export default props => (
             <div className="navbar-collapse collapse" id="navbar">
                 <ul className="nav navbar-nav">
                     <li>
-                        <a href="#/todos">Tarefas</a>
+                        <a href="#/todos">Tasks</a>
                     </li>
                     <li>
-                        <a href="#/about">Sobre</a>
+                        <a href="#/about">About</a>
                     </li>
                 </ul>
             </div>

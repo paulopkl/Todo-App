@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const URL = 'http://localhost:3003/api/todos';
 
-const changeDescription = (event) => {
+const changeDescription = event => {
     return {
         type: 'DESCRIPTION_CHANGED',
         payload: event.target.value
@@ -11,19 +11,11 @@ const changeDescription = (event) => {
 
 const search = () => {
     return (dispatch, getState) => {
-        const description = getState().todo.description; // O método getState() retorna o estado global
+        const description = getState().todo.description; // this method getState() returns global state
         axios.get(`${URL}?sort=createdAt${description ? `&description__regex=/${description}/` : ''}`)
                 .then(resp => dispatch({ type: 'TODO_SEARCH', payload: resp.data }))
     }
 }
-
-// const add = (description) => {
-//     const request = axios.post(URL, { description });
-//     return [
-//         { type: 'TODO_ADDED', payload: request },
-//         search()
-//     ]
-// }
 
 const add = description => {
     return dispatch => {

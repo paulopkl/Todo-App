@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
@@ -7,7 +7,7 @@ import { changeDescription, search, add, clear } from './todoActions';
 import Grid from '../template/Grid';
 import IconButton from '../template/IconButton';
 
-class TodoForm extends React.Component {
+class TodoForm extends Component {
 
     constructor(props) {
         super(props)
@@ -19,8 +19,6 @@ class TodoForm extends React.Component {
     }
 
     keyHandler(e) {
-
-        console.log(e.key);
 
         const { add, search, description } = this.props;
 
@@ -38,7 +36,7 @@ class TodoForm extends React.Component {
 
                 <Grid cols="12 9 10">
                     <input type="text" onChange={this.props.changeDescription} value={this.props.description} 
-                        id="description" className="form-control" placeholder="Adicione uma tarefa" 
+                        id="description" className="form-control" placeholder="Add a task" 
                         onKeyUp={this.keyHandler} />
                 </Grid>
 

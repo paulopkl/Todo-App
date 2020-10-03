@@ -84,18 +84,16 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
+First enter in backend and front. Install dependencies with <code>npm install</code>
 
 ```
-Give the example
+cd Backend // cd Frontend  
 ```
 
-And repeat
+Running the server with pm2
 
 ```
-until finished
+npm run production
 ```
 
 ## 🎈 Usage <a name="usage"></a>
@@ -106,15 +104,15 @@ Add notes about how to use the system.
 
 - [MongoDB](https://www.mongodb.com/) - Database
 - [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
+- [React](https://vuejs.org/) - Web Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [@paulopl](https://github.com/paulopl) - Idea & Initial work
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors)
-who participated in this project.
+<!-- See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors)
+who participated in this project. -->
 
 ## 🎉 Acknowledgments <a name = "acknowledgments"></a>
 

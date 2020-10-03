@@ -6,7 +6,7 @@ import React from 'react';
 import Menu from '../template/Menu';
 import Routes from '../main/routes';
 
-export default props => (
+export default () => (
     <div className="container">
         <Menu />
         <Routes />
